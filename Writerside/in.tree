@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name"
+                  start-page="starter.topic">
+
+    <toc-element topic="starter.topic"/>
+    <toc-element topic="intro-webservices-apis.md"/>
+    <toc-element topic="consuming-apis-with-curl.md"/>
+    <toc-element topic="first-api-with-quarkus.md"/>
+    <toc-element topic="crud-with-validation.md"/>
+</instance-profile>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Desenvolvimento de APIs com Quarkus" id="starter">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Desenvolvimento de APIs com Quarkus</title>
+        <description>
+            Este curso apresenta conceitos fundamentais sobre WebServices e APIs RESTful, com foco no desenvolvimento prático utilizando o framework Quarkus. Você aprenderá desde conceitos básicos até técnicas avançadas para criar APIs eficientes e escaláveis.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="intro-webservices-apis.md" type="start" summary="Conceitos básicos de APIs RESTful e princípios fundamentais de webservices">Introdução a WebServices e APIs RESTful</a>
+            <a href="first-api-with-quarkus.md" type="development" summary="Aprenda a criar sua primeira API com Quarkus do zero">Criação de API com Quarkus</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Fundamentos</title>
+            <a href="intro-webservices-apis.md" summary="Entenda o que são WebServices e APIs RESTful e sua importância">Introdução a WebServices</a>
+            <a href="consuming-apis-with-curl.md" summary="Aprenda a consumir APIs existentes antes de criar as suas">Consumo de APIs com curl</a>
+            <a href="first-api-with-quarkus.md" summary="Construa sua primeira API utilizando o framework Quarkus">Primeira API com Quarkus</a>
+            <a href="crud-with-validation.md" summary="Entenda o funcionamento de operações CRUD com validações">CRUD com Validações</a>
+            <a href="" summary="Entenda o funcionamento básico de operações CRUD">Operações CRUD</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Tópicos Avançados</title>
+            <a href="" summary="Implemente um CRUD completo com persistência utilizando H2 e Panache ORM">CRUD com H2 e Panache ORM</a>
+            <a href="" summary="Documente suas APIs de forma automática com Swagger">Swagger com Quarkus</a>
+            <a href="" summary="Técnicas avançadas e melhores práticas">Tópicos Avançados</a>
+        </secondary>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards>
+                <title>Avaliação e Projetos</title>
+                <a href="" summary="Informações sobre os trabalhos e provas da disciplina">Trabalhos e Avaliações</a>
+                <a href="" summary="Projetos práticos para aplicar o conhecimento">Projetos Práticos</a>
+            </cards>
+
+            <cards narrow="true">
+                <title>Conteúdos Futuros</title>
+                <a href="" summary="Tópicos adicionais que serão abordados nas próximas aulas">Tópicos 7-16</a>
+                <a href="" summary="Recursos adicionais para aprendizado">Material Complementar</a>
+            </cards>
+
+            <links>
+                <group>
+                    <title>Links Úteis</title>
+                    <a href="https://quarkus.io/guides/">Documentação Oficial Quarkus</a>
+                    <a href="https://code.quarkus.io/">Quarkus Code Generator</a>
+                    <a href="https://www.postman.com/">Postman para teste de APIs</a>
+                </group>
+                <group>
+                    <title>Recursos Adicionais</title>
+                    <a href="https://restfulapi.net/">Guia RESTful API</a>
+                    <a href="https://swagger.io/">Documentação Swagger</a>
+                </group>
+            </links>
+
+            <links narrow="true">
+                <group>
+                    <title>More related topics</title>
+                    <a href=""/>
+                    <a href="" summary="With a custom card summary"/>
+                    <a href="">Custom card title</a>
+                    <a href="" summary="With a custom card summary">Custom card title</a>
+                </group>
+                <group>
+                    <title>Three in a row</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+                <group>
+                    <title>Each group is narrow</title>
+                    <a href=""/>
+                    <a href=""/>
+                    <a href="">Custom card title</a>
+                    <a href="">Custom card title</a>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>
