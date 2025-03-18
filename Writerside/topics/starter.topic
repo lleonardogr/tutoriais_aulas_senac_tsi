@@ -15,7 +15,7 @@
             Only the spotlight section is limited to two topics.
             For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
 
-    <section-starting-page>
+    <section-starting-page id="starter">
         <title>Desenvolvimento de APIs com Quarkus</title>
         <description>
             Este curso apresenta conceitos fundamentais sobre WebServices e APIs RESTful, com foco no desenvolvimento prático utilizando o framework Quarkus. Você aprenderá desde conceitos básicos até técnicas avançadas para criar APIs eficientes e escaláveis.
@@ -62,14 +62,14 @@
             <links>
                 <group>
                     <title>Links Úteis</title>
-                    <a href="https://quarkus.io/guides/">Documentação Oficial Quarkus</a>
-                    <a href="https://code.quarkus.io/">Quarkus Code Generator</a>
-                    <a href="https://www.postman.com/">Postman para teste de APIs</a>
+                    <a summary="documentação quarkus" href="https://quarkus.io/guides/">Documentação Oficial Quarkus</a>
+                    <a summary="gerador de projetos quarkus" href="https://code.quarkus.io/">Quarkus Code Generator</a>
+                    <a summary="Download postman" href="https://www.postman.com/">Postman para teste de APIs</a>
                 </group>
                 <group>
                     <title>Recursos Adicionais</title>
-                    <a href="https://restfulapi.net/">Guia RESTful API</a>
-                    <a href="https://swagger.io/">Documentação Swagger</a>
+                    <a summary="guia rest" href="https://restfulapi.net/">Guia RESTful API</a>
+                    <a summary="documentação swagger" href="https://swagger.io/">Documentação Swagger</a>
                 </group>
             </links>
 
