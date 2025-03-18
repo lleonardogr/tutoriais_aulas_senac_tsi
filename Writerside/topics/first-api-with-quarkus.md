@@ -68,7 +68,7 @@ curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@qu
 
 #### No Windows (PowerShell):
 
-```POWERSHELL
+```shell
 iex "& { $(iwr https://ps.jbang.dev) } trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/"
 iex "& { $(iwr https://ps.jbang.dev) } app install --fresh --force quarkus@quarkusio"
 ```
@@ -107,7 +107,7 @@ quarkus-api-demo/
 
 Vamos configurar nosso banco de dados H2. Edite o arquivo `application.properties` em `src/main/resources`:
 
-```properties
+```plain text
 # Configurações da base de dados
 quarkus.datasource.db-kind=h2
 quarkus.datasource.username=username
