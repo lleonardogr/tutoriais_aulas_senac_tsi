@@ -68,7 +68,7 @@ curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@qu
 
 #### No Windows (PowerShell):
 
-```powershell
+```POWERSHELL
 iex "& { $(iwr https://ps.jbang.dev) } trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/"
 iex "& { $(iwr https://ps.jbang.dev) } app install --fresh --force quarkus@quarkusio"
 ```

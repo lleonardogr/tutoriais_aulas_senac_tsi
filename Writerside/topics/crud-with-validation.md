@@ -409,7 +409,7 @@ public class ProdutoValidationTest {
 
 As anotações de validação são automaticamente incorporadas à documentação OpenAPI. Para habilitar:
 
-```properties
+```plain text
 # application.properties
 quarkus.swagger-ui.always-include=true
 ```
