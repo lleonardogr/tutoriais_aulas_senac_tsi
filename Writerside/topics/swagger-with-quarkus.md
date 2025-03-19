@@ -45,7 +45,7 @@ Por padrão, o Quarkus gera automaticamente documentação OpenAPI baseada em se
 
 Você pode personalizar as informações gerais da documentação de sua API através do arquivo `application.properties`:
 
-```properties
+```text
 # Título da API
 quarkus.smallrye-openapi.info-title=API de Produtos
 # Versão da API
@@ -111,7 +111,7 @@ public class OpenAPIConfig extends Application {
 
 Você pode personalizar a aparência e comportamento do Swagger UI através de configurações no `application.properties`:
 
-```properties
+```text
 # Sempre incluir o Swagger UI, mesmo em produção
 quarkus.swagger-ui.always-include=true
 
