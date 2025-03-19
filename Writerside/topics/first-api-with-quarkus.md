@@ -107,7 +107,7 @@ quarkus-api-demo/
 
 Vamos configurar nosso banco de dados H2. Edite o arquivo `application.properties` em `src/main/resources`:
 
-```plain text
+```text
 # Configurações da base de dados
 quarkus.datasource.db-kind=h2
 quarkus.datasource.username=username
