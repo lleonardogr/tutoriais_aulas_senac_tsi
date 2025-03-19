@@ -11,4 +11,5 @@
     <toc-element topic="consuming-apis-with-curl.md"/>
     <toc-element topic="first-api-with-quarkus.md"/>
     <toc-element topic="crud-with-validation.md"/>
+    <toc-element topic="swagger-with-quarkus.md"/>
 </instance-profile>

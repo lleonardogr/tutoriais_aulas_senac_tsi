@@ -1,4 +1,4 @@
-# 3. Implementando CRUD Completo com Validações
+# 4. Implementando CRUD Completo com Validações
 
 Neste tópico, vamos expandir nossa API Quarkus para implementar um CRUD completo com validações robustas utilizando Hibernate Validator. As validações são essenciais para garantir a integridade dos dados e melhorar a experiência do usuário ao fornecer feedback sobre problemas de dados.
 

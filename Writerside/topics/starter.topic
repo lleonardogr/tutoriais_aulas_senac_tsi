@@ -41,7 +41,7 @@
         <secondary>
             <title>Tópicos Avançados</title>
             <a href="" summary="Implemente um CRUD completo com persistência utilizando H2 e Panache ORM">CRUD com H2 e Panache ORM</a>
-            <a href="" summary="Documente suas APIs de forma automática com Swagger">Swagger com Quarkus</a>
+            <a href="swagger-with-quarkus.md" summary="Documente suas APIs de forma automática com Swagger">Swagger com Quarkus</a>
             <a href="" summary="Técnicas avançadas e melhores práticas">Tópicos Avançados</a>
         </secondary>
 
@@ -70,30 +70,7 @@
                     <title>Recursos Adicionais</title>
                     <a summary="guia rest" href="https://restfulapi.net/">Guia RESTful API</a>
                     <a summary="documentação swagger" href="https://swagger.io/">Documentação Swagger</a>
-                </group>
-            </links>
-
-            <links narrow="true">
-                <group>
-                    <title>More related topics</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-                <group>
-                    <title>Three in a row</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
-                </group>
-                <group>
-                    <title>Each group is narrow</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
+                    <a summary="lista de API's" href="https://github.com/public-apis/public-apis">Repositório do Github de API's publicas</a>
                 </group>
             </links>
         </misc>
