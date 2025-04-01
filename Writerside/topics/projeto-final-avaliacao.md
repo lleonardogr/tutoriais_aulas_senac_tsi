@@ -2,6 +2,8 @@
 
 Este documento apresenta as diretrizes para o projeto final de avaliação do curso de Desenvolvimento de APIs com Quarkus. O projeto consiste em desenvolver uma API RESTful completa utilizando os conceitos e técnicas aprendidos ao longo do curso.
 
+[Entregas](https://docs.google.com/spreadsheets/d/1TgiupynOKxU5VC3NO4aw3jPTwYkGGXrWc_H8Pxj4vHc/edit?usp=sharing)
+
 ## Objetivo
 
 Desenvolver uma API RESTful usando Quarkus que represente um domínio de negócio à sua escolha, aplicando os conceitos de WebServices, REST, validação de dados e documentação de API com Swagger.

@@ -42,6 +42,7 @@
             <title>Tópicos Avançados</title>
             <a href="" summary="Implemente um CRUD completo com persistência utilizando H2 e Panache ORM">CRUD com H2 e Panache ORM</a>
             <a href="swagger-with-quarkus.md" summary="Documente suas APIs de forma automática com Swagger">Swagger com Quarkus</a>
+<!--            <a href="jwt-authentication-quarkus.md" summary="Implemente autenticação segura usando JWT">Autenticação JWT</a>-->
             <a href="" summary="Técnicas avançadas e melhores práticas">Tópicos Avançados</a>
         </secondary>
 
