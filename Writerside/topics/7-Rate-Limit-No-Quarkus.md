@@ -161,7 +161,7 @@ package org.acme.resource;
 
 5. Configurando o rate limit via arquivo `application.properties` (opcional)
 
-``` Plain Text
+```shell
 # Configurar rate limit para classes específicas
 # Formato: quarkus.fault-tolerance.[identificador].rate-limit.[propriedade]=[valor]
 
@@ -183,7 +183,7 @@ O SmallRye Fault Tolerance oferece três tipos de janelas de tempo para rate lim
 2. **Janela deslizante (rolling)** - Considera o número de requisições feitas no passado recente. Por exemplo, com limite de 10 requisições por minuto, verifica quantas requisições foram feitas nos últimos 60 segundos.
 3. **Janela suave (smooth)** - Similar à janela deslizante, mas com uma transição mais gradual.
 
-```Plain Text
+```shell
 # Configurar janela deslizante para rate limiting
 org.acme.resource.ExemploResource/limitado.RateLimit/windowKind=ROLLING
 ```

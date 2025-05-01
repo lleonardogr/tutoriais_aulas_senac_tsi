@@ -237,7 +237,7 @@ package org.acme.idempotency;
 
 4. Configure o cache no arquivo `application.properties`
 
-```Plain Text
+```shell
 # Configurações do cache para idempotência
 quarkus.cache.caffeine."idempotency-cache".initial-capacity=100
 quarkus.cache.caffeine."idempotency-cache".maximum-size=1000

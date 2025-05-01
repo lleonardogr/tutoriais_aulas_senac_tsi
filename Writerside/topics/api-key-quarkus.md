@@ -16,7 +16,7 @@ A autenticação por API key é uma abordagem simples e eficaz para proteger API
 
 Adicione a configuração da API key no arquivo `application.properties`:
 
-```plain text
+```shell
 quarkus.api-key.value=sua-api-key-secreta
 quarkus.api-key.header-name=X-API-Key
 ```
