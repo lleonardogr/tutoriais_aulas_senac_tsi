@@ -32,14 +32,55 @@ Desenvolver uma API RESTful usando Quarkus que represente um domínio de negóci
 - Incluir pelo menos 1 endpoints com consultas personalizadas por entidade
 - Implementar pelo menos 1 endpoint que trabalhe com múltiplas entidades em uma única operação (Opcional)
 
-### 4. Validações e Tratamento de Erros
+### 4. Recursos Avançados de API
+
+Para esta fase do projeto, você deve implementar os seguintes recursos avançados na sua API:
+
+#### 4.1. Idempotência
+
+- Implementar idempotência em operações POST utilizando chaves idempotentes
+- Garantir que a mesma operação não seja processada duas vezes acidentalmente
+- Exemplo: implementar mecanismo para armazenar e verificar cabeçalhos de idempotência (`Idempotency-Key`)
+
+#### 4.2. Autenticação com Chave de API
+
+- Implementar um sistema de autenticação baseado em chaves de API
+- Criar endpoint para geração e gerenciamento de chaves de API para usuários
+- Proteger endpoints sensíveis para exigir uma chave de API válida
+- Implementar diferentes níveis de acesso (opcional)
+
+#### 4.3. Rate Limiting
+
+- Configurar limitação de taxa de requisições por cliente/IP
+- Implementar cabeçalhos de resposta informando limites e uso (`X-RateLimit-Limit`, `X-RateLimit-Remaining`)
+- Retornar status HTTP 429 (Too Many Requests) quando o limite for excedido
+- Configurar diferentes limites para diferentes endpoints ou tipo de usuário (opcional)
+
+#### 4.4. CORS (Cross-Origin Resource Sharing)
+
+- Configurar adequadamente a política de CORS para sua API
+- Permitir acesso de origens específicas
+- Configurar os métodos HTTP permitidos em requisições cross-origin
+- Configurar cabeçalhos personalizados permitidos
+- Implementar suporte para cookies em requisições cross-origin (opcional)
+
+#### 4.5. Versionamento da API
+
+- Implementar versionamento da API usando um dos seguintes métodos:
+  - Versionamento via URL (ex: `/api/v1/recurso`)
+  - Versionamento via cabeçalho personalizado (ex: `X-API-Version: 1`)
+  - Versionamento via parâmetro de consulta (ex: `?version=1`)
+  - Versionamento via content negotiation (ex: `Accept: application/vnd.empresa.api.v1+json`)
+- Manter pelo menos duas versões de um endpoint para demonstrar a funcionalidade
+
+### 5. Validações e Tratamento de Erros
 
 - Validar todos os dados de entrada usando Bean Validation
 - Implementar tratamento global de exceções
 - Retornar códigos de status HTTP apropriados para cada situação
 - Fornecer mensagens de erro claras e úteis
 
-### 5. Documentação com Swagger/OpenAPI
+### 6. Documentação com Swagger/OpenAPI
 
 - Documentar todos os endpoints usando anotações OpenAPI
 - Incluir descrições detalhadas, exemplos e possíveis códigos de resposta
