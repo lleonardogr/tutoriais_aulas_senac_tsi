@@ -341,3 +341,34 @@ Agora que você tem sua primeira API Quarkus funcionando com banco de dados H2, 
 4. **Implantar em produção** em ambientes cloud
 
 No próximo tópico, expandiremos este conceito para criar uma API CRUD mais completa com validações e documentação Swagger.
+
+## Solução de Problemas (Troubleshooting)
+
+Ao trabalhar com projetos Quarkus no IntelliJ Community Edition, alguns ajustes são necessários para garantir uma experiência de desenvolvimento fluida.
+
+### Utilizando IntelliJ Community Edition
+
+O IntelliJ Community Edition não possui suporte nativo ao Quarkus, mas é possível configurar o ambiente para trabalhar com o framework:
+
+- Baixe e instale o plugin <b>Quarkus Tools</b> disponível no marketplace do IntelliJ.
+- Crie uma nova configuração de execução (<b>Run Configuration</b>) para rodar sua aplicação Quarkus.
+- Certifique-se de que o projeto está indexado corretamente na versão do Java utilizada (JDK 11+ ou JDK 17 recomendado).
+
+<procedure title="Criando uma configuração de execução no IntelliJ" id="run_config_intellij" collapsible="true">
+    <step>Vá em <b>Run &gt; Edit Configurations</b>.</step>
+    <step>Clique em <b>+</b> e selecione <b>Application</b>.</step>
+    <step>Defina o nome, classe principal (<code>io.quarkus.runner.GeneratedMain</code> para projetos padrão) e o módulo do projeto.</step>
+    <step>Configure as variáveis de ambiente e argumentos conforme necessário.</step>
+</procedure>
+
+<warning>
+Se o projeto não estiver indexado na versão correta do Java, você pode enfrentar problemas de depuração e execução. Verifique em <b>File &gt; Project Structure &gt; Project</b> se o SDK está configurado para a versão recomendada.
+</warning>
+
+<tip>
+Após instalar o plugin Quarkus Tools, você terá acesso a assistentes de criação de projetos, gerenciamento de extensões e integração facilitada com o Quarkus Dev Mode.
+</tip>
+
+<warning>
+O IntelliJ Community Edition não possui suporte completo para depuração de aplicações Quarkus nativas. Para recursos avançados, considere utilizar o IntelliJ Ultimate ou outras IDEs como VS Code.
+</warning>
