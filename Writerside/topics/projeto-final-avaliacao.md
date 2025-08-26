@@ -8,7 +8,7 @@ Este documento apresenta as diretrizes para o projeto final de avaliação do cu
 
 Desenvolver uma API RESTful usando Quarkus que represente um domínio de negócio à sua escolha, aplicando os conceitos de WebServices, REST, validação de dados e documentação de API com Swagger.
 
-## Requisitos Técnicos
+## Requisitos Técnicos - Parte 1
 
 ### 1. Estrutura do Projeto
 
@@ -30,7 +30,8 @@ Desenvolver uma API RESTful usando Quarkus que represente um domínio de negóci
 - **Mínimo de 5 endpoints REST para cada entidade** (total de pelo menos 15 endpoints)
 - Implementar operações CRUD completas para cada entidade
 - Incluir pelo menos 1 endpoints com consultas personalizadas por entidade
-- Implementar pelo menos 1 endpoint que trabalhe com múltiplas entidades em uma única operação (Opcional)
+
+## Requisitos Técnicos - Parte 2
 
 ### 4. Recursos Avançados de API
 
@@ -308,7 +309,9 @@ R: Não, este é um projeto individual para avaliação das competências de cad
 
 ## Prazo de Entrega
 
-A entrega final do projeto deverá ser realizada até **[DATA DE ENTREGA - A definir]** às 23:59h.
+A entrega final do primeiro projeto deverá ser realizada até **[DATA DE ENTREGA - 23/09]** às 23:59h.
+
+A entrega final do segundo projeto deverá ser realizada até **[DATA DE ENTREGA - A definir]** às 23:59h.
 
 As apresentações ocorrerão no dia **[DATA DA APRESENTAÇÃO - A definir]** em sala de aula.
 
