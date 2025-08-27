@@ -7,13 +7,14 @@
                   start-page="starter.topic">
 
     <toc-element topic="starter.topic"/>
-    <toc-element topic="intro-webservices-apis.md"/>
-    <toc-element topic="consuming-apis-with-curl.md"/>
-    <toc-element topic="first-api-with-quarkus.md"/>
-    <toc-element topic="crud-with-validation.md"/>
-    <toc-element topic="swagger-with-quarkus.md"/>
-    <toc-element topic="api-key-quarkus.md"/>
-    <toc-element topic="7-Rate-Limit-No-Quarkus.md"/>
-    <toc-element topic="8-Idempotencia-no-quarkus.md"/>
-    <toc-element topic="projeto-final-avaliacao.md"/>
+    <toc-element topic="01-intro-webservices-apis.md"/>
+    <toc-element topic="02-consuming-apis-with-curl.md"/>
+    <toc-element topic="03-first-api-with-quarkus.md"/>
+    <toc-element topic="04-crud-with-validation.md"/>
+    <toc-element topic="05-filtering-sorting-pagination.md"/>
+    <toc-element topic="06-swagger-with-quarkus.md"/>
+    <toc-element topic="07-api-key-quarkus.md"/>
+    <toc-element topic="08-Rate-Limit-No-Quarkus.md"/>
+    <toc-element topic="09-Idempotencia-no-quarkus.md"/>
+    <toc-element topic="10-projeto-final-avaliacao.md"/>
 </instance-profile>
