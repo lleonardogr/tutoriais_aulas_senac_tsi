@@ -30,6 +30,14 @@ Desenvolver uma API RESTful usando Quarkus que represente um domínio de negóci
 - **Mínimo de 5 endpoints REST para cada entidade** (total de pelo menos 15 endpoints)
 - Implementar operações CRUD completas para cada entidade
 - Incluir pelo menos 1 endpoints com consultas personalizadas por entidade
+- Incluir HATEOAS em todos os endpoints necessários
+- Utilizar códigos de status HTTP apropriados para cada operação
+
+### 4. Documentação
+- Documentar todos os endpoints usando anotações OpenAPI
+- Incluir descrições detalhadas, exemplos e possíveis códigos de resposta
+- Personalizar a interface do Swagger UI com informações do projeto
+- Garantir que a documentação esteja completa e precisa
 
 ## Requisitos Técnicos - Parte 2
 
