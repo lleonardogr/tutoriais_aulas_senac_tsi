@@ -371,7 +371,7 @@ Para projetos grandes, otimize o IntelliJ:
 **Solução:**
 1. **Usar caminhos mais curtos para projetos**
 2. **Habilitar suporte a caminhos longos:**
-   ```cmd
+   ```bash
    # Como administrador
    git config --system core.longpaths true
    ```
@@ -381,7 +381,7 @@ Para projetos grandes, otimize o IntelliJ:
 **Problema:** Scripts não executam no PowerShell.
 
 **Solução:**
-```powershell
+```shell
 # Como administrador
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
