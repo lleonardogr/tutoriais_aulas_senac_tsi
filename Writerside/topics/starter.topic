@@ -24,19 +24,19 @@
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
             <a href="00-troubleshooting-java-quarkus.md" type="tools" summary="Resolva problemas comuns de configuração do IntelliJ Community Edition, Maven e Quarkus">Solução de Problemas - Setup e Troubleshooting</a>
-            <a href="03-first-api-with-quarkus.md" type="development" summary="Aprenda a criar sua primeira API com Quarkus do zero">Criação de API com Quarkus</a>
+            <a href="11-projeto-final-avaliacao.md" type="development" summary="Projeto final e entrega">Projeto final e entregas</a>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
             <title>Fundamentos</title>
-            <a href="00-troubleshooting-java-quarkus.md" summary="Resolva problemas de configuração do ambiente de desenvolvimento">Troubleshooting e Configuração</a>
-            <a href="01-intro-webservices-apis.md" summary="Entenda o que são WebServices e APIs RESTful e sua importância">Introdução a WebServices</a>
-            <a href="02-consuming-apis-with-curl.md" summary="Aprenda a consumir APIs existentes antes de criar as suas">Consumo de APIs com curl</a>
-            <a href="03-first-api-with-quarkus.md" summary="Construa sua primeira API utilizando o framework Quarkus">Primeira API com Quarkus</a>
-            <a href="04-crud-with-validation.md" summary="Entenda o funcionamento de operações CRUD com validações">CRUD com Validações</a>
-            <a href="05-filtering-sorting-pagination.md" summary="Implemente filtragem, ordenação e paginação com query parameters">Filtragem, Ordenação e Paginação</a>
-            <a href="06-hateoas-with-quarkus.md" summary="Aprenda a implementar HATEOAS para APIs autodescritivas">HATEOAS com Quarkus</a>
+<!--            <a href="00-troubleshooting-java-quarkus.md" summary="Resolva problemas de configuração do ambiente de desenvolvimento">Troubleshooting e Configuração</a>-->
+<!--            <a href="01-intro-webservices-apis.md" summary="Entenda o que são WebServices e APIs RESTful e sua importância">Introdução a WebServices</a>-->
+<!--            <a href="02-consuming-apis-with-curl.md" summary="Aprenda a consumir APIs existentes antes de criar as suas">Consumo de APIs com curl</a>-->
+<!--            <a href="03-first-api-with-quarkus.md" summary="Construa sua primeira API utilizando o framework Quarkus">Primeira API com Quarkus</a>-->
+<!--            <a href="04-crud-with-validation.md" summary="Entenda o funcionamento de operações CRUD com validações">CRUD com Validações</a>-->
+<!--            <a href="05-filtering-sorting-pagination.md" summary="Implemente filtragem, ordenação e paginação com query parameters">Filtragem, Ordenação e Paginação</a>-->
+<!--            <a href="06-hateoas-with-quarkus.md" summary="Aprenda a implementar HATEOAS para APIs autodescritivas">HATEOAS com Quarkus</a>-->
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
