@@ -15,19 +15,24 @@ This repository uses **JetBrains Writerside** for documentation management:
 - **Images**: `Writerside/images/` contains tutorial screenshots and diagrams
 - **Topic tree**: `in.tree` defines the hierarchical organization of tutorials
 
-### Key Tutorial Topics
+### Tutorial Structure
 
-The course follows a progressive learning structure:
+The course is organized in a numbered sequence through `Writerside/in.tree`:
 
-1. **intro-webservices-apis.md** - Introduction to WebServices and RESTful APIs
-2. **consuming-apis-with-curl.md** - API consumption basics with curl
-3. **first-api-with-quarkus.md** - Creating first API with Quarkus
-4. **crud-with-validation.md** - CRUD operations with validation
-5. **swagger-with-quarkus.md** - API documentation with Swagger
-6. **api-key-quarkus.md** - API key authentication
-7. **7-Rate-Limit-No-Quarkus.md** - Rate limiting implementation
-8. **8-Idempotencia-no-quarkus.md** - Idempotency in APIs
-9. **projeto-final-avaliacao.md** - Final project requirements and evaluation criteria
+0. **00-troubleshooting-java-quarkus.md** - Troubleshooting guide for Java/Quarkus development setup
+1. **01-intro-webservices-apis.md** - Introduction to WebServices and RESTful APIs
+2. **02-consuming-apis-with-curl.md** - API consumption basics with curl  
+3. **03-first-api-with-quarkus.md** - Creating first API with Quarkus
+4. **04-crud-with-validation.md** - CRUD operations with validation
+5. **05-filtering-sorting-pagination.md** - Advanced query features
+6. **06-hateoas-with-quarkus.md** - HATEOAS implementation for self-descriptive APIs
+7. **07-swagger-with-quarkus.md** - API documentation with Swagger
+8. **08-api-key-quarkus.md** - API key authentication
+9. **09-Rate-Limit-No-Quarkus.md** - Rate limiting implementation
+10. **10-Idempotencia-no-quarkus.md** - Idempotency in APIs
+11. **11-projeto-final-avaliacao.md** - Final project requirements and evaluation criteria
+
+The learning path is defined in `starter.topic` with spotlight, primary, secondary, and misc sections for content organization.
 
 ## Content Language and Context
 
@@ -55,17 +60,34 @@ The course culminates in a comprehensive API project that must include:
 - JWT authentication or API key security
 - Rate limiting and idempotency features
 
-## Writerside Commands
+## Development Commands
 
-When working with documentation:
-- Documentation builds and previews are handled through Writerside IDE or plugins
-- Topic structure is defined in `in.tree` with XML format
-- Categories and variables can be managed through `c.list` and `v.list` files
+This repository is focused on documentation management rather than code compilation. Key commands:
 
-## File Editing Guidelines
+### Writerside Documentation
+- **Build documentation**: Automated via GitHub Actions (`.github/workflows/build-docs.yml`)
+- **Local preview**: Use Writerside IDE or plugins for live preview
+- **Topic structure**: Managed through `Writerside/in.tree` XML configuration
+- **Categories and variables**: Defined in `Writerside/c.list` and `Writerside/v.list`
+
+### Git Workflow
+- Documentation is automatically built and deployed to GitHub Pages on push to `main` branch
+- The build process uses JetBrains Writerside Docker builder
+- Testing is performed via `writerside-checker-action` to validate documentation structure
+
+## Content Guidelines
 
 When editing tutorial content:
-- Maintain Portuguese language consistency
-- Follow the established tutorial progression and difficulty curve
-- Preserve code examples that demonstrate Quarkus best practices
-- Keep practical examples focused on the educational objectives
+- **Language consistency**: All content must be in Portuguese (Brazilian Portuguese)
+- **Progressive difficulty**: Follow the numbered sequence and maintain appropriate complexity escalation
+- **Quarkus focus**: Preserve code examples that demonstrate Quarkus best practices and framework-specific features
+- **Educational alignment**: Keep practical examples focused on TSI curriculum objectives
+- **Writerside compliance**: Ensure markdown syntax is compatible with Writerside documentation system
+
+## Architecture Overview
+
+This is a **documentation-only repository** using JetBrains Writerside:
+- No application code or build systems (Maven/Gradle)
+- Automated documentation pipeline via GitHub Actions
+- Tutorial content structured as progressive learning modules
+- Focus on practical Quarkus API development education
