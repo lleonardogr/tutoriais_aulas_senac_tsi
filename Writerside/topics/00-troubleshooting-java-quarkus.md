@@ -94,7 +94,7 @@ chmod +x mvnw
 ```
 
 **Solução no Windows:**
-```cmd
+```bash
 # Usar o arquivo .cmd
 mvnw.cmd clean compile
 ```
@@ -232,7 +232,7 @@ mvnw.cmd clean compile
 
 **Solução:**
 1. **Verificar application.properties:**
-   ```properties
+   ```text
    # Configuração H2 em memória
    quarkus.datasource.db-kind=h2
    quarkus.datasource.jdbc.url=jdbc:h2:mem:testdb
@@ -265,7 +265,7 @@ mvnw.cmd clean compile
    ```
 
 2. **Importar dados iniciais:**
-   ```properties
+   ```text
    # Arquivo import.sql na pasta resources
    quarkus.hibernate-orm.sql-load-script=import.sql
    ```
