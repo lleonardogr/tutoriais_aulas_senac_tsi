@@ -256,7 +256,7 @@ mvnw.cmd clean compile
 
 **Solução:**
 1. **Verificar configurações de schema:**
-   ```properties
+   ```text
    # Para desenvolvimento - recria schema a cada inicialização
    quarkus.hibernate-orm.database.generation=drop-and-create
    
