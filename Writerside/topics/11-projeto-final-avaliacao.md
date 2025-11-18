@@ -319,7 +319,7 @@ R: Não, este é um projeto individual para avaliação das competências de cad
 
 A entrega final do primeiro projeto deverá ser realizada até **[DATA DE ENTREGA - 23/09]** às 23:59h.
 
-A entrega final do segundo projeto deverá ser realizada até **[DATA DE ENTREGA - A definir]** às 23:59h.
+A entrega final do segundo projeto deverá ser realizada até **[DATA DE ENTREGA - 18/11]** às 23:59h.
 
 As apresentações ocorrerão no dia **[DATA DA APRESENTAÇÃO - A definir]** em sala de aula.
 
