@@ -38,6 +38,13 @@ Desenvolver uma API RESTful usando Spring Boot que represente um domínio de neg
 - Incluir descrições detalhadas, exemplos e possíveis códigos de resposta
 - Garantir que a documentação esteja completa e precisa
 
+### 5. HATEOAS
+
+- Implementar HATEOAS utilizando Spring HATEOAS
+- Incluir links relevantes nas respostas (self, update, delete, etc.)
+- Garantir navegabilidade entre recursos da API
+- Utilizar `EntityModel`, `CollectionModel` ou `PagedModel` quando aplicável
+
 ## Requisitos Técnicos - Parte 2
 
 ### 4. Recursos Avançados de API
