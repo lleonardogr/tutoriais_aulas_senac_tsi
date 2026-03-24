@@ -139,6 +139,7 @@ public class LivroController {
         return repository.findAll(pageable);
     }
 }
+```
 
 ## Dicas e Boas Práticas
 Comece pelo modelo de dados
