@@ -53,13 +53,13 @@ Para esta fase do projeto, você deve implementar os seguintes recursos avançad
 
 #### 4.1. Idempotência
 
-- Implementar idempotência em operações POST utilizando chaves idempotentes
+- Implementar idempotência em operações POST utilizando chaves idempotentes com os headers adequados
 - Garantir que a mesma operação não seja processada duas vezes acidentalmente
-- Exemplo: implementar mecanismo para armazenar e verificar cabeçalhos de idempotência (`Idempotency-Key`)
+- Exemplo: implementar mecanismo para armazenar e verificar cabeçalhos de idempotência (`X-Idempotency-Key`)
 
 #### 4.2. Autenticação com Chave de API
 
-- Implementar um sistema de autenticação baseado em chaves de API
+- Implementar um sistema de autenticação baseado em chaves de API (`X-API-Key`)
 - Criar endpoint para geração e gerenciamento de chaves de API para usuários
 - Proteger endpoints sensíveis para exigir uma chave de API válida
 - Implementar diferentes níveis de acesso (opcional)
@@ -67,7 +67,7 @@ Para esta fase do projeto, você deve implementar os seguintes recursos avançad
 #### 4.3. Rate Limiting
 
 - Configurar limitação de taxa de requisições por cliente/IP
-- Implementar cabeçalhos de resposta informando limites e uso (`X-RateLimit-Limit`, `X-RateLimit-Remaining`)
+- Implementar cabeçalhos de resposta informando limites e uso (`Retry-After`)
 - Retornar status HTTP 429 (Too Many Requests) quando o limite for excedido
 
 #### 4.4. CORS (Cross-Origin Resource Sharing)
@@ -79,8 +79,7 @@ Para esta fase do projeto, você deve implementar os seguintes recursos avançad
 #### 4.5. Versionamento da API
 
 - Implementar versionamento da API usando um dos seguintes métodos:
-  - Versionamento via URL (ex: `/api/v1/recurso`)
-  - Versionamento via cabeçalho personalizado
+  - Versionamento via cabeçalho personalizado (`X-API-Version`)
 - Manter pelo menos duas versões de um endpoint para demonstrar a funcionalidade
 
 ### 5. Validações e Tratamento de Erros
@@ -169,8 +168,6 @@ R: Não, o projeto é individual.
 
 A entrega da primeira parte deverá ser realizada até 07 de abril às 23:59h.
 
-A entrega da segunda parte será definida posteriormente (a definir).
-
-As apresentações ocorrerão em data a definir.
+A entrega da segunda parte deverá ser realizada até 26 de Maio às 22:35.
 
 Boa sorte no desenvolvimento do seu projeto!
